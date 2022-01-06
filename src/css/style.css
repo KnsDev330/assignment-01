@@ -1,11 +1,13 @@
 body {
-    padding: 50px 100px;
+    padding: 0px 100px 50px;
     font-family: sans-serif;
 }
 
 h1 { font-size: 55px; }
-.color-green { color: rgba(0, 128, 0, 0.582); }
+.color-green { color: rgba(0, 128, 0, 0.801); }
+.text-center { text-align: center; }
 
+section { margin-top: 70px; }
 
 .section {
     display: flex;
@@ -19,7 +21,7 @@ h1 { font-size: 55px; }
 .focus {
     padding: 0px 15px;
     margin: 30px 0px;
-    font-size: 65px;
+    font-size: 70px;
     color: #4e4e4e;
     border-left: 5px solid rgb(35, 219, 75);
     font-family: 'Abhaya Libre', serif;
@@ -41,7 +43,7 @@ h1 { font-size: 55px; }
     text-decoration: none;
     margin: 20px 0px;
     border-radius: 7px;
-    background-image: linear-gradient(180deg, rgb(3, 194, 60), rgb(0, 92, 12));
+    background-image: linear-gradient(180deg, rgb(3, 194, 60), rgb(0, 119, 16));
 }
 
 .center {
@@ -52,3 +54,55 @@ h1 { font-size: 55px; }
     border-radius: 50%;
     box-shadow: 0px 0px 10px gray;
 }
+
+
+
+
+
+
+
+.year {
+    font-family: 'Orbitron', sans-serif;
+}
+.missions {
+    display: flex;
+}
+.mission {
+    width: 33%;
+    margin: 20px 10px;
+    padding: 20px 30px;
+    background-color: red;
+    border-radius: 20px;
+}
+.mission img{
+    width: 160px;;
+}
+.mission1 {background-color: rgba(0, 255, 255, 0.2);}
+.mission2 {background-color: rgba(226, 43, 186, 0.2);}
+.mission3 {background-color: rgba(128, 255, 0, 0.2);}
+
+
+
+
+
+
+
+.mission-explained {
+    width: 60%;
+}
+
+.mission-explained-img {
+    width: 35%;
+}
+
+.mission-explained-img img {
+    width: 100%;
+}
+
+.mission-explained-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.lp-80 {padding-left: 80px;}
+.rp-80 {padding-right: 80px;}
